@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 40px;
+      color: #2c5364;
+    }
+
+    /* About */
+    .about p {
+      font-size: 18px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    /* Skills */
+    .skills {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .skill-box {
+      background: white;
+      width: 30%;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .skill-box h3 {
+      margin-bottom: 10px;
+      color: #203a43;
+    }
+
+    /* Projects */
+    .projects {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .project-card {
+      background: white;
+      width: 48%;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Contact */
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .contact a {
+      color: #2c5364;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #203a43;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .skill-box,
+      .project-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/150" alt="Profile Image">
+    <h1>Your Name</h1>
+    <p>Web Developer | HTML | CSS | Beginner Friendly Projects</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a beginner web developer learning HTML and CSS. I enjoy building
+      clean and responsive websites and improving my design skills through
+      hands-on projects.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-box">
+        <h3>HTML</h3>
+        <p>Structured and semantic web pages</p>
+      </div>
+      <div class="skill-box">
+        <h3>CSS</h3>
+        <p>Layouts, colors, and responsive design</p>
+      </div>
+      <div class="skill-box">
+        <h3>Basics</h3>
+        <p>UI design & page alignment</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>Designed a responsive landing page using HTML and CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio showcasing skills and projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
+    <p>Phone: +91 XXXXXXXXXX</p>
+    <p>Resume: <a href="#">Download PDF</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name | Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
