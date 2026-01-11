@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Creative Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #4f46e5, #6366f1);
+      color: #fff;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px 60px;
+      background: #fff;
+    }
+
+    .hero-text {
+      width: 50%;
+    }
+
+    .hero-text h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .hero-text button {
+      padding: 12px 30px;
+      background-color: #4f46e5;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    .hero-image {
+      width: 40%;
+    }
+
+    .hero-image img {
+      width: 100%;
+    }
+
+    /* Features */
+    .features {
+      padding: 60px;
+      background-color: #f4f6f8;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .feature-box {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      width: 30%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .box h3 {
+      margin-bottom: 15px;
+      color: #4f46e5;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1f2933;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text,
+      .hero-image {
+        width: 100%;
+      }
+
+      .feature-box {
+        flex-direction: column;
+      }
+
+      .box {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MyLanding</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Build Creative Landing Pages</h2>
+      <p>
+        Learn HTML and CSS by building modern, responsive, and
+        visually appealing landing pages from scratch.
+      </p>
+      <button>Get Started</button>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/400" alt="Landing Page Image">
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Why Choose This Project?</h2>
+    <div class="feature-box">
+      <div class="box">
+        <h3>Beginner Friendly</h3>
+        <p>Perfect project to understand layout, spacing, and styling.</p>
+      </div>
+      <div class="box">
+        <h3>Creative Design</h3>
+        <p>Use colors, fonts, and alignment to build an impressive UI.</p>
+      </div>
+      <div class="box">
+        <h3>Responsive</h3>
+        <p>Designed to work on desktop, tablet, and mobile devices.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 MyLanding | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
